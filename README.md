@@ -1,6 +1,6 @@
-# 조수와 나무 — 필드 레코딩 · 사운드 디자인
+# 정다운 · 영상 PD
 
-Portfolio Maker로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
+포메(Portfolio Maker)로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
 
 ## 열기
 
@@ -15,9 +15,10 @@ python -m http.server 5500
 
 ## 페이지
 
-- `index.html` — Home
-- `field.html` — Field
-- `contact.html` — Contact
+- `index.html` — 홈
+- `작업.html` — 작업
+- `제작.html` — 제작
+- `연락처.html` — 연락처
 
 ## 구조
 
@@ -25,7 +26,7 @@ python -m http.server 5500
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
 assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · tilt-card · scroll-reveal · model-showcase · magnetic-button · smooth-scroll · cursor-dot)
+effects/             효과 팩 (_core · model-showcase)
 ```
 
 ## 고치는 법
