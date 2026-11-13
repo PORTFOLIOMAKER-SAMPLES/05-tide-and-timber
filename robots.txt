@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tideandtimber.example/sitemap.xml
