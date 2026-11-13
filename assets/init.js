@@ -8,6 +8,7 @@
  * 효과를 빼고 싶으면 아래 한 줄을 지우고 HTML의 data-fx도 지우면 됩니다.
  */
 
+import { mount as parallax } from '../effects/parallax-layers/index.js';
 import { mount as model } from '../effects/model-showcase/index.js';
 
 /**
@@ -60,6 +61,7 @@ function boot() {
       sl.addEventListener('pointerleave', () => { if (!t) t = setInterval(() => go(1), ms); });
     }
   });
+  parallax('[data-fx~="parallax"]');
   model('.fx-model');
 }
 
